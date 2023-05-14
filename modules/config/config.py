@@ -30,7 +30,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " BIKASH ADITYA PLAYER")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1439222689").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/TEJXOS/ADITYAPLAYER",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/SARKAROP123/BgtMusic",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
@@ -91,7 +91,7 @@ LOG_FILE_NAME = "adityalogs.txt"
 
 
 # All Images Of Bikash Aditya Player // @BIKASHHALDER @AdityaHalder
-START_IMG_URL = getenv("START_IMG_URL", f"https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg")
+START_IMG_URL = getenv("START_IMG_URL", f"https://graph.org/file/c3d1d343a2321b505f61a.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "resource/ping.jpeg")
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "resource/playlist.jpeg")
 GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL", "resource/global.jpeg")
