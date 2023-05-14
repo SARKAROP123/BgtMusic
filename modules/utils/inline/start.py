@@ -21,16 +21,16 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text="🍷 𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍷",
-                url=f"https://t.me/+I67bz3RT2cA3ODU1"),
+                url=f"https://t.me/+I67bz3RT2cA3ODU1"
             ),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                text="🍒𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🍒",
                 url=f"https://t.me/+I67bz3RT2cA3ODU1",
             )
         ],
         [
             InlineKeyboardButton(
-                text="⚙ 𝐁𝐨𝐭 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 ⚙", callback_data="settings_helper"
+                text="💥 𝐁𝐨𝐭 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 💥", callback_data="settings_helper"
             )
         ]
     ]
@@ -50,7 +50,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
                 url=f"https://t.me/+I67bz3RT2cA3ODU1"),
             InlineKeyboardButton(
-                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                text="🍒𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🍒",
                 url=f"https://t.me/+I67bz3RT2cA3ODU1")
         ],
         [
