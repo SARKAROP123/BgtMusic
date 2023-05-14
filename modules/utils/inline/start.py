@@ -14,18 +14,18 @@ def start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ✨",
+                text="🍷 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🍷",
                 url=f"https://t.me/{app.username}?start=help",
             )
         ],
         [
             InlineKeyboardButton(
-                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/BikashGedgetsTech",
+                text="🍷 𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍷",
+                url=f"https://t.me/+I67bz3RT2cA3ODU1"),
             ),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/bgt_chat",
+                url=f"https://t.me/+I67bz3RT2cA3ODU1",
             )
         ],
         [
@@ -48,10 +48,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/BikashGedgetsTech"),
+                url=f"https://t.me/+I67bz3RT2cA3ODU1"),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/bgt_chat")
+                url=f"https://t.me/+I67bz3RT2cA3ODU1")
         ],
         [
             InlineKeyboardButton(
