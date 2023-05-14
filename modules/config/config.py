@@ -26,15 +26,15 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "500"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " BIKASH ADITYA PLAYER")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1439222689").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " SARKAR PLAYER")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5877400248").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/SARKAROP123/BgtMusic",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "sarkar")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/bgt_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TKS_JOIN")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+I67bz3RT2cA3ODU1")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "On")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
@@ -86,24 +86,24 @@ autoclean = []
 LOG = 2
 YTDOWNLOADER = 1
 BANNED_USERS = filters.user()
-LOG_FILE_NAME = "adityalogs.txt"
+LOG_FILE_NAME = "sarkarlogs.txt"
 ############################
 
 
 # All Images Of Bikash Aditya Player // @BIKASHHALDER @AdityaHalder
 START_IMG_URL = getenv("START_IMG_URL", f"https://graph.org/file/c3d1d343a2321b505f61a.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "resource/ping.jpeg")
-PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "resource/playlist.jpeg")
-GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL", "resource/global.jpeg")
-STATS_IMG_URL = getenv("STATS_IMG_URL", "resource/stats.jpeg")
-TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "resource/audio.jpeg")
-TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "resource/video.jpeg")
-STREAM_IMG_URL = getenv("STREAM_IMG_URL", "resource/stream.jpeg")
-SOUNCLOUD_IMG_URL = getenv("SOUNCLOUD_IMG_URL", "resource/soundcloud.jpeg")
-YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "resource/youtube.jpeg")
-SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL", "resource/SpotifyArtist.jpeg")
-SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL", "resource/SpotifyAlbum.jpeg")
-SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL", "resource/spotifyplaylist.jpeg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+STREAM_IMG_URL = getenv("STREAM_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+SOUNCLOUD_IMG_URL = getenv("SOUNCLOUD_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
+SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL", "https://graph.org/file/c3d1d343a2321b505f61a.jpg")
 
 
 def time_to_seconds(time):
